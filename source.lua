@@ -2085,9 +2085,7 @@ local function Draggable(Bar, Window, enableTaptic, tapticOffset)
 			if Input.UserInputType == Enum.UserInputType.MouseMovement or Input.UserInputType == Enum.UserInputType.Touch then
 				DragInput = Input
 			end
-				end)
-
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
+		end)
 
 		UserInputService.InputChanged:Connect(function(Input)
 			if Input == DragInput and Dragging then
@@ -7017,3 +7015,7 @@ end
     t1:CreateDropdown({Description = "Special Type - Player", Callback = "", SpecialType = "Player"})
 end]]--
 return Luna
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
+
+end
