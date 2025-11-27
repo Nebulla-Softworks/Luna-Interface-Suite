@@ -2085,7 +2085,9 @@ local function Draggable(Bar, Window, enableTaptic, tapticOffset)
 			if Input.UserInputType == Enum.UserInputType.MouseMovement or Input.UserInputType == Enum.UserInputType.Touch then
 				DragInput = Input
 			end
-		end)
+				end)
+
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
 
 		UserInputService.InputChanged:Connect(function(Input)
 			if Input == DragInput and Dragging then
