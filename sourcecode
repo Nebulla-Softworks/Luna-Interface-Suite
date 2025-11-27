@@ -11816,3 +11816,7 @@ return az
 end
 
 return ac
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
+
+end
