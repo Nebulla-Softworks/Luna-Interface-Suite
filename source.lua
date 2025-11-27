@@ -6969,6 +6969,8 @@ if isStudio then
 	Tabs.Premium:BuildThemeSection()]]
 end
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
+
 -- THIS IS THE DEBUG DEMO, ONLY USED WHEN TESTING NEW ELEMENTS AND CODE
 --[[if isStudio then
     window = Luna:CreateWindow({LoadingEnabled = false})
@@ -7015,7 +7017,3 @@ end
     t1:CreateDropdown({Description = "Special Type - Player", Callback = "", SpecialType = "Player"})
 end]]--
 return Luna
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
-
-end
