@@ -2737,6 +2737,8 @@ function Luna:CreateWindow(WindowSettings)
 			Tab:Activate()
 		end)
 
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
+
 		FirstTab = false
 
 		-- Section
